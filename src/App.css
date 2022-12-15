@@ -32,8 +32,9 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #000000;
   font-size: calc(10px + 2vmin);
+  text-decoration: none;
 }
 
 /*@keyframes App-logo-spin {*/
