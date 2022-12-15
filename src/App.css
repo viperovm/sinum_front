@@ -4,16 +4,19 @@
 
 .App-logo {
   /*height: 40vmin;*/
-  min-width: 300px;
+  width: 500px;
   pointer-events: none;
   margin-top: -200px;
 }
 
-/*@media (prefers-reduced-motion: no-preference) {*/
-/*  .App-logo {*/
-/*    animation: App-logo-spin infinite 20s linear;*/
-/*  }*/
-/*}*/
+@media (max-width: 768px) {
+  .App-logo {
+    /*height: 40vmin;*/
+    width: 380px;
+    pointer-events: none;
+    margin-top: -200px;
+  }
+}
 
 .App-header {
   background-color: #F2F2F2;
